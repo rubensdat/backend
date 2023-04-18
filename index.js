@@ -11,5 +11,6 @@ app.get("/", (req, res)=>{
 const PORT = 3008;
 
 app.listen(process.env.PORT || PORT, ()=>{
-    console.log('Rodando na porta ' + PORT);
+    console.log('Rodando na porta ==== ' + PORT);
 })
+
